@@ -1,5 +1,6 @@
 package me.skyfox.tutorialmod;
 
+import me.skyfox.tutorialmod.block.ModBlocks;
 import me.skyfox.tutorialmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,5 +14,6 @@ public class TutorialMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
